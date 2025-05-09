@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerHome{
+  background-color: rgb(0, 0, 0);
+}
+
+.do-hyeon-regular {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.containerFoto{
+  border-radius: 100%;
+  background-color: blue;
+  width: 420px;
+  height: 420px
+}
+
+.containerIcons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.containerP{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #350973;
+  border-radius: 20px; 
+}
