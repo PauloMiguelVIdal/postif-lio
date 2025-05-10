@@ -1,5 +1,5 @@
 import React from "react";
-import html from "../img/icons portifólio/html.png"
+import html from "../img/foto de perfil.jpg "; // Replace with the actual path to your image
 
 
 function Tecnologia() {
