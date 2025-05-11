@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './components/Footer.jsx';
 import Home from './components/Home.jsx';
 import Introducao from './components/Introducao.jsx';
 import Projetos from './components/Projetos.jsx';
@@ -11,6 +12,7 @@ function App() {
       <Introducao/>
       <Tecnologia />
       <Projetos/>
+      <Footer/>
     </div>
   );
 }

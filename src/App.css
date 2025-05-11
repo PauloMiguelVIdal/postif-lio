@@ -42,6 +42,9 @@
   border-radius: 20px; 
 }
 
+.iconsCont:hover{
+  background: #F28705;
+}
 
 .projetos-container {
   display: flex;
@@ -53,14 +56,14 @@
 }
 
 .projeto-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 300px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  height: 400px;
 }
 
 .projeto-card:hover {
@@ -82,7 +85,7 @@
 
 .tecnologia {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #F28705;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -94,13 +97,13 @@
   display: inline-block;
   margin: 10px 5px;
   text-decoration: none;
-  color: #007bff;
+  color: #F28705;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .links a:hover {
-  color: #0056b3;
+  color: #bb6c0c;
 }
 
 .links i {
