@@ -38,10 +38,14 @@ function Home() {
                     </div>
                     <div className="containerIcons flex justify-center lg:justify-start space-x-4 mt-6">
                         <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
-                            <img className="w-8 lg:w-10" src={github} alt="GitHub" />
+                            <a href="https://github.com/PauloMiguelVIdal/" target="_blank" rel="noopener noreferrer">
+                                <img className="w-8 lg:w-10" src={github} alt="GitHub" />
+                            </a>
                         </button>
                         <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
-                            <img className="w-8 lg:w-10" src={linkedin} alt="LinkedIn" />
+                            <a href="www.linkedin.com/in/paulo-miguel-vidal-da-silva" target="_blank" rel="noopener noreferrer">
+                                <img className="w-8 lg:w-10" src={linkedin} alt="LinkedIn" />
+                            </a>
                         </button>
                         <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
                             <img className="w-8 lg:w-10" src={curriculo} alt="Currículo" />

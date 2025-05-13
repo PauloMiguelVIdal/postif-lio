@@ -26,7 +26,7 @@ function Introducao() {
             </div>
     
             {/* IMAGEM DECORATIVA */}
-            <img src={computador} className="w-[500px] rotate-[-45deg] absolute right-0 bottom-[200px] z-0 opacity-30 pointer-events-none" alt="Computador decorativo" />
+            {/* <img src={computador} className="w-[500px] rotate-[-45deg] absolute right-0 bottom-[200px] z-0 opacity-30 pointer-events-none" alt="Computador decorativo" /> */}
         </div>
     );
     
