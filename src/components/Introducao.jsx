@@ -7,7 +7,7 @@ function Introducao() {
     return (
         <div className=" h-screen w-screen bg-gradient-to-b from-black to-[#350973] flex flex-col items-center pt-10">
             {/* BLOCO SOBRE MIM */}
-            <div className="relative w-[60%] bg-[#350973] rounded-[20px] p-6 shadow-xl z-10">
+            <div className="w-[60%] bg-[#350973] rounded-[20px] p-6 shadow-xl z-10">
                 <h1 className="do-hyeon-regular text-[50px] text-[#F28705]">SOBRE MIM</h1>
                 <div className="flex justify-between items-center mt-4">
                     <p className="inter text-white w-[80%] pr-4">
@@ -18,7 +18,7 @@ function Introducao() {
             </div>
     
             {/* BLOCO OBJETIVOS FUTUROS */}
-            <div className="relative w-[60%] bg-[#350973] rounded-[20px] p-6 mt-10 shadow-xl z-10">
+            <div className="w-[60%] bg-[#350973] rounded-[20px] p-6 mt-10 shadow-xl z-10">
                 <h1 className="do-hyeon-regular text-[50px] text-[#F28705]">OBJETIVOS FUTUROS</h1>
                 <p className="inter text-white mt-4">
                     Atualmente, estou focado em aprimorar minhas habilidades no <strong>front-end</strong>, especialmente com <strong>React</strong>, para dominar completamente essa área. Além disso, estou expandindo meus conhecimentos no <strong>back-end</strong>, buscando uma base sólida em tecnologias como <strong>ASP.NET</strong> e <strong>Python</strong>. Meu objetivo é me tornar um <strong>desenvolvedor full-stack</strong>, capaz de criar aplicações completas e robustas, combinando um <strong>front-end moderno</strong> com um <strong>back-end eficiente</strong>.
