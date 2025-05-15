@@ -6,15 +6,15 @@ import code from "../icons/programacao.png"
 import fotoPerfil from "../img/foto de perfil.jpg"
 function Home() {
     return (
-        <div className="h-screen w-screen bg-black flex flex-col items-center">
+        <div id="home" className="h-screen w-screen bg-black flex flex-col items-center">
             <div className="absolute top-4 left-4">
                 <img className="w-16" src={code} alt="Code Icon" />
             </div>
             <ul className="barraMenu flex items-center justify-center space-x-8 py-4">
-                <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]">HOME</li>
+                <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]"> <a href="#projetos"></a>HOME</li>
                 <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]">INTRODUÇÃO</li>
                 <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]">TECNOLOGIAS</li>
-                <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]">PORTIFÓLIO</li>
+                <li className="do-hyeon-regular text-white cursor-pointer hover:text-[#F28705]"><a href="#projetos" />PORTIFÓLIO</li>
             </ul>
             <div className="flex flex-col lg:flex-row justify-center items-center mt-16 lg:mt-32 px-4 lg:px-16">
                 <div className="containerFoto overflow-hidden rounded-full w-48 h-48 lg:w-64 lg:h-64">

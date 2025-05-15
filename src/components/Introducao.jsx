@@ -5,7 +5,7 @@ import usuario from "../img/icons portifólio/avatar-de-perfil.png"
 
 function Introducao() {
     return (
-        <div className=" h-screen w-screen bg-gradient-to-b from-black to-[#350973] flex flex-col items-center pt-10">
+        <div id="introdução" className=" h-screen w-screen bg-gradient-to-b from-black to-[#350973] flex flex-col items-center pt-10">
             {/* BLOCO SOBRE MIM */}
             <div className="w-[60%] bg-[#350973] rounded-[20px] p-6 shadow-xl z-10">
                 <h1 className="do-hyeon-regular text-[50px] text-[#F28705]">SOBRE MIM</h1>

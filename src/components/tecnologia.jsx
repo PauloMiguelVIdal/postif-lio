@@ -39,7 +39,7 @@ function Tecnologia() {
   };
 
   return (
-    <div className=" h-screen w-screen flex flex-col items-center justify-center bg-[#350973]">
+    <div id="tecnologia" className=" h-screen w-screen flex flex-col items-center justify-center bg-[#350973]">
       <h1 className="text-white text-3xl mb-6 font-bold do-hyeon-regular">TECNOLOGIAS</h1>
       <div className="flex flex-col h-full md:flex-row items-center">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 h-[80%] w-full p-1">
