@@ -39,25 +39,29 @@ function Tecnologia() {
   };
 
   return (
-    <div id="tecnologia" className=" h-screen w-screen flex flex-col items-center justify-center bg-[#350973]">
-      <h1 className="text-white text-3xl mb-6 font-bold do-hyeon-regular">TECNOLOGIAS</h1>
-      <div className="flex flex-col h-full md:flex-row items-center">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 h-[80%] w-full p-1">
+    <div id="tecnologia" className="w-full min-h-screen flex flex-col items-center justify-center bg-[#350973] py-10 px-4">
+      <h1 className="text-white text-3xl mb-6 font-bold do-hyeon-regular text-center">TECNOLOGIAS</h1>
+
+      {/* Container geral que se adapta em telas menores */}
+      <div className="flex flex-col lg:flex-row gap-8 w-full max-w-7xl justify-center items-center lg:items-start">
+        {/* Grade de ícones */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full max-w-[600px]">
           {tecnologias.map((tecnologia) => (
             <div
               key={tecnologia.id}
               onClick={() => handleTecnologiaClick(tecnologia)}
-              className={`iconsCont rounded-[20px] bg-[#6411D9] h-[120px] aspect-square flex flex-col items-center justify-center shadow-lg hover:scale-105 transition-transform cursor-pointer ${isSelected(tecnologia)}`}
+              className={`rounded-[20px] bg-[#6411D9] aspect-square flex flex-col items-center justify-center shadow-lg hover:scale-105 transition-transform cursor-pointer ${isSelected(tecnologia)}`}
             >
               <img src={tecnologia.icon} alt={tecnologia.name} className="w-[50px] h-[50px] mb-2" />
-              <span className="text-white text-sm font-medium">{tecnologia.name}</span>
+              <span className="text-white text-sm font-medium text-center">{tecnologia.name}</span>
             </div>
           ))}
         </div>
-        {selectedTecnologia && (
-          <div className="p-4 bg-[radial-gradient(circle_at_top_left,_#6411D9,_#350973)] rounded-[20px] shadow-lg text-white h-[100%] w-[300px] md:h-[400px] md:w-[400px]">
 
-          <h2 className="text-xl font-bold mb-2">{selectedTecnologia.name}</h2>
+        {/* Card de detalhes, que se adapta embaixo ou ao lado */}
+        {selectedTecnologia && (
+          <div className="p-4 bg-[radial-gradient(circle_at_top_left,_#6411D9,_#350973)] rounded-[20px] shadow-lg text-white w-full sm:w-[90%] md:w-[500px]">
+            <h2 className="text-xl font-bold mb-2">{selectedTecnologia.name}</h2>
             <p className="text-sm mb-2">{selectedTecnologia.desc}</p>
             <p className="text-sm mb-2">{selectedTecnologia.mySkill}</p>
             <p className="text-sm">{selectedTecnologia.myProjects}</p>
