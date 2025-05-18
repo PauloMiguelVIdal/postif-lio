@@ -7,15 +7,15 @@ import fotoPerfil from "../img/foto de perfil.jpg";
 
 function Home() {
     return (
-        <section
-            id="home"
-            className="h-screen w-screen bg-black flex flex-col items-center relative"
-            aria-label="Seção inicial do portfólio"
-        >
+<section
+  id="home"
+  className="min-h-screen w-screen bg-black flex flex-col items-center"
+  aria-label="Seção inicial do portfólio"
+>
             {/* Ícone de código */}
-            <div className="absolute top-4 left-4">
+            {/* <div className="absolute top-4 left-4">
                 <img className="w-16" src={code} alt="Ícone de programação" />
-            </div>
+            </div> */}
 
             {/* Menu de navegação */}
             <nav className="barraMenu flex items-center justify-center space-x-8 py-4" aria-label="Menu principal">
@@ -35,7 +35,7 @@ function Home() {
 
             {/* Conteúdo principal */}
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mt-10 lg:mt-32 px-4 lg:px-16 text-white">
-            {/* Foto de perfil */}
+                {/* Foto de perfil */}
                 <div className="containerFoto overflow-hidden rounded-full w-48 h-48 lg:w-64 lg:h-64 border-4 border-[#F28705]">
                     <img
                         className="w-full h-full object-cover"
@@ -61,42 +61,37 @@ function Home() {
                     </p>
 
                     {/* Ícones de redes sociais */}
-                    <div className="containerIcons flex justify-center lg:justify-start space-x-4 mt-6" aria-label="Links de contato">
-                        <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
-                            <a
-                                href="https://github.com/PauloMiguelVIdal/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="GitHub"
-                                className="hover:bg-[#F28705] p-2 rounded-full"
-                            >
-                                <img className="w-8 lg:w-10" src={github} alt="GitHub" />
-                            </a>
-                        </button>
-                        <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
+                    <div className="containerIcons flex justify-center lg:justify-start space-x-4 mt-6 flex-wrap" aria-label="Links de contato">
+                        <a
+                            href="https://github.com/PauloMiguelVIdal/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                            className="containerP hover:bg-[#F28705] p-2 rounded-full inline-block"
+                        >
+                            <img className="w-8 lg:w-10" src={github} alt="GitHub" />
+                        </a>
 
-                            <a
-                                href="https://www.linkedin.com/in/paulo-miguel-vidal-da-silva"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="LinkedIn"
-                                className="hover:bg-[#F28705] p-2 rounded-full"
-                            >
-                                <img className="w-8 lg:w-10" src={linkedin} alt="LinkedIn" />
-                            </a>
-                        </button>
-                        <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
+                        <a
+                            href="https://www.linkedin.com/in/paulo-miguel-vidal-da-silva"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            className="containerP hover:bg-[#F28705] p-2 rounded-full inline-block"
+                        >
+                            <img className="w-8 lg:w-10" src={linkedin} alt="LinkedIn" />
+                        </a>
 
-                            <a
-                                href="../docs/PauloMiguel_CV.pdf"
-                                download
-                                aria-label="Currículo PDF"
-                                className="hover:bg-[#F28705] p-2 rounded-full"
-                            >
-                                <img className="w-8 lg:w-10" src={curriculo} alt="Currículo" />
-                            </a>
-                        </button>
+                        <a
+                            href="/PauloMiguel_CV.pdf"
+                            download
+                            aria-label="Currículo PDF"
+                            className="containerP hover:bg-[#F28705] p-2 rounded-full inline-block"
+                        > 
+                            <img className="w-8 lg:w-10" src={curriculo} alt="Currículo" />
+                        </a>
                     </div>
+
                 </div>
             </div>
 
