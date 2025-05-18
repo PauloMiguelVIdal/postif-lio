@@ -88,7 +88,7 @@ function Home() {
                         <button className="containerP hover:bg-[#F28705] p-2 rounded-full">
 
                             <a
-                                href="/PauloMiguel_CV.pdf"
+                                href="../docs/PauloMiguel_CV.pdf"
                                 download
                                 aria-label="Currículo PDF"
                                 className="hover:bg-[#F28705] p-2 rounded-full"
