@@ -1,8 +1,9 @@
 import React from 'react';
 import belmacio from '../img/img sites/logo barbearia.png';
 import sitePersonal from '../img/img sites/gustavo capa.png';
-import obank from '../img/img sites/obank.png';
-
+// import obank from '../img/img sites/obank.png';
+import climaOpen from "../img/img sites/climaOpen.png";
+import vaneStore from "../img/img sites/vaneStore.png"
 const Projetos = () => {
     const projetos = [
         {
@@ -25,15 +26,35 @@ const Projetos = () => {
             desc: 'Um site para um personal trainer, com informações geração de ofertas e direcionamento para WhatsApp.',
             situação: 'completo',
         },
+        // {
+        //     id: 3,
+        //     nome: 'Obank',
+        //     imagem: obank,
+        //     tecnologias: ['React', 'TailwindCSS', 'JavaScript'],
+        //     github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
+        //     deploy: 'https://link-do-deploy-obank.com',
+        //     desc: 'Um site de banco fictício, com funcionalidades de conta e transações.',
+        //     situação: 'Em desenvolvimento',
+        // },
         {
-            id: 3,
-            nome: 'Obank',
-            imagem: obank,
-            tecnologias: ['React', 'TailwindCSS', 'JavaScript'],
-            github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
-            deploy: 'https://link-do-deploy-obank.com',
-            desc: 'Um site de banco fictício, com funcionalidades de conta e transações.',
-            situação: 'Em desenvolvimento',
+            id: 4,
+            nome: 'Clima Open',
+            imagem: climaOpen,
+            tecnologias: ['React', 'TailwindCSS', 'JavaScript','ChartJs',' Material UI',' Axios','API'],
+            github: 'https://github.com/PauloMiguelVIdal/ClimaApi',
+            deploy: 'https://clima-api-six.vercel.app/',
+            desc: 'Um site de clima, com funcionalidades de temperatura e chuva.',
+            situação: 'completo',
+        },
+        {
+            id: 5,
+            nome: 'Vane Store',
+            imagem: vaneStore,
+            tecnologias: ['React', 'TailwindCSS', 'JavaScript',' Material UI',' Axios',' React Router','API'],
+            github: 'https://github.com/PauloMiguelVIdal/lojaFake',
+            deploy: 'https://loja-fake.vercel.app/',
+            desc: 'Um site de loja fictício, com funcionalidades de conta e produtos.',
+            situação: 'completo',
         },
     ];
 
