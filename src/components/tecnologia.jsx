@@ -8,6 +8,7 @@ import mongodb from "../img/icons portifólio/MongoDB.png"; // Replace with the 
 import tailwind from "../img/icons portifólio/tailwindCss.png"; // Replace with the actual path to your image
 import bootstrap from "../img/icons portifólio/bootstrap.png"; // Replace with the actual path to your image
 import figma from "../img/icons portifólio/figma.png"; // Replace with the actual path to your image
+import materiaUI from "../img/icons portifólio/MaterialUI.png"; // Replace with the actual path to your image
 import { useState } from "react";
 
 const tecnologias = [
@@ -20,6 +21,7 @@ const tecnologias = [
   { id: 7, name: "TailwindCSS", icon: tailwind, desc: "Framework CSS utilitário para estilização rápida.", mySkill: "Uso para criar designs modernos e responsivos.", myProjects: "Eu utilizei essa tecnologia nos seguintes projetos: Portfólio pessoal, Dashboard de controle, e Página de vendas." },
   { id: 8, name: "Bootstrap", icon: bootstrap, desc: "Framework CSS para desenvolvimento rápido de interfaces.", mySkill: "Tenho experiência em usar seus componentes prontos.", myProjects: "Eu utilizei essa tecnologia nos seguintes projetos: Sistema de cadastro, Página de vendas, e Portfólio pessoal." },
   { id: 9, name: "Figma", icon: figma, desc: "Ferramenta de design colaborativo para interfaces.", mySkill: "Uso para criar protótipos e wireframes.", myProjects: "Eu utilizei essa tecnologia nos seguintes projetos: Design de portfólio, Aplicação de tarefas, e Página de vendas." },
+  { id: 10, name: "Materia UI", icon: materiaUI, desc: "Ferramenta de design colaborativo para interfaces.", mySkill: "Uso para criar protótipos e wireframes.", myProjects: "Eu utilizei essa tecnologia nos seguintes projetos: Design da vane store, Aplicação de tarefas, e Página de vendas." },
 ];
 
 
@@ -42,32 +44,23 @@ function Tecnologia() {
     <div id="tecnologia" className="w-full min-h-screen flex flex-col items-center justify-center bg-[#350973] py-10 px-4">
       <h1 className="text-white text-3xl mb-6 font-bold do-hyeon-regular text-center">TECNOLOGIAS</h1>
 
-      {/* Container geral que se adapta em telas menores */}
-      <div className="flex flex-col lg:flex-row gap-8 w-full max-w-7xl justify-center items-center lg:items-start">
-        {/* Grade de ícones */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full max-w-[600px]">
-          {tecnologias.map((tecnologia) => (
-            <div
-              key={tecnologia.id}
-              onClick={() => handleTecnologiaClick(tecnologia)}
-              className={`rounded-[20px] bg-[#6411D9] aspect-square flex flex-col items-center justify-center shadow-lg hover:scale-105 transition-transform cursor-pointer ${isSelected(tecnologia)}`}
-            >
-              <img src={tecnologia.icon} alt={tecnologia.name} className="w-[50px] h-[50px] mb-2" />
-              <span className="text-white text-sm font-medium text-center">{tecnologia.name}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Card de detalhes, que se adapta embaixo ou ao lado */}
-        {selectedTecnologia && (
-          <div className="p-4 bg-[radial-gradient(circle_at_top_left,_#6411D9,_#350973)] rounded-[20px] shadow-lg text-white w-full sm:w-[90%] md:w-[500px]">
-            <h2 className="text-xl font-bold mb-2">{selectedTecnologia.name}</h2>
-            <p className="text-sm mb-2">{selectedTecnologia.desc}</p>
-            <p className="text-sm mb-2">{selectedTecnologia.mySkill}</p>
-            <p className="text-sm">{selectedTecnologia.myProjects}</p>
-          </div>
-        )}
+  
+{/* Carrossel com pausa ao hover e ícones maiores */}
+<div className="w-full overflow-hidden py-4 carousel-wrapper">
+  <div className="flex animate-carousel whitespace-nowrap gap-12">
+    {[...tecnologias, ...tecnologias].map((tecnologia, index) => (
+      <div
+        key={index}
+        className="flex flex-col items-center justify-center min-w-[120px] hover:scale-110 transition-transform cursor-pointer"
+        onClick={() => handleTecnologiaClick(tecnologia)}
+      >
+        <img src={tecnologia.icon} alt={tecnologia.name} className="w-[80px] h-[80px] mb-2" />
+        <span className="text-white text-base font-medium text-center">{tecnologia.name}</span>
       </div>
+    ))}
+  </div>
+</div>
+
     </div>
   );
 }
