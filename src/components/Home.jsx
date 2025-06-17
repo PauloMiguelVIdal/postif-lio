@@ -84,7 +84,7 @@ function Home() {
                         </a>
 
                         <a
-                            href="/PauloMiguel_CV.pdf"
+                            href="/public/PauloMiguel_CV-LATEX.pdf"
                             download
                             aria-label="Currículo PDF"
                             className="containerP hover:bg-[#F28705] p-2 rounded-full inline-block"
