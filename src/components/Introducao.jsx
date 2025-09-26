@@ -49,7 +49,7 @@ function Introducao() {
             <strong>React</strong>, para dominar completamente essa área. Além
             disso, estou expandindo meus conhecimentos no{" "}
             <strong>back-end</strong>, buscando uma base sólida em tecnologias
-            como <strong>ASP.NET</strong> e <strong>Python</strong>. Meu
+            como <strong>Express</strong> e <strong>Node.js</strong>. Meu
             objetivo é me tornar um <strong>desenvolvedor full-stack</strong>,
             capaz de criar aplicações completas e robustas, combinando um{" "}
             <strong>front-end moderno</strong> com um{" "}

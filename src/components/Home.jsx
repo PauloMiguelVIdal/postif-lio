@@ -55,7 +55,7 @@ function Home() {
                         </h2>
                     </div>
                     <p className="containerCentral mt-4 inter text-white text-sm lg:text-base leading-relaxed">
-                        Estudante de programação há cerca de 2 anos, com foco em <br />
+                        Estudante de programação há cerca de 3 anos, com foco em <br />
                         desenvolvimento web usando Javascript e React. Estou buscando<br />
                         minha primeira oportunidade na área para continuar aprendendo e<br />
                         contribuindo com minhas habilidades.
