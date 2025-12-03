@@ -1,19 +1,30 @@
 import React from 'react';
 import belmacio from '../img/img sites/logo barbearia.png';
 import sitePersonal from '../img/img sites/gustavo capa.png';
-// import obank from '../img/img sites/obank.png';
+import obank from '../img/img sites/obank.png';
 import climaOpen from "../img/img sites/climaOpen.png";
 import vaneStore from "../img/img sites/vaneStore.png"
+import businessGame from "../img/img sites/logo Joguinho.png";
 const Projetos = () => {
     const projetos = [
-        {
-            id: 1,
-            nome: 'Barbearia Belmacio',
-            imagem: belmacio,
-            tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            github: 'https://github.com/PauloMiguelVIdal/barbeariaBelmacio',
-            deploy: 'https://barbearia-belmacio.vercel.app/',
-            desc: 'Um site responsivo para uma barbearia, com informações sobre serviços e agendamentos.',
+        // {
+        //     id: 1,
+        //     nome: 'Barbearia Belmacio',
+        //     imagem: belmacio,
+        //     tecnologias: ['HTML', 'CSS', 'JavaScript'],
+        //     github: 'https://github.com/PauloMiguelVIdal/barbeariaBelmacio',
+        //     deploy: 'https://barbearia-belmacio.vercel.app/',
+        //     desc: 'Um site responsivo para uma barbearia, com informações sobre serviços e agendamentos.',
+        //     situação: 'completo',
+        // },
+                {
+            id: 6,
+            nome: 'Business Game',
+            imagem: businessGame,
+            tecnologias: ['React', 'TailwindCSS', 'JavaScript',' Material UI','ChartJs'],
+            github: 'https://github.com/PauloMiguelVIdal/joguinho-de-lojas',
+            deploy: 'https://joguinho-de-lojas.vercel.app/',
+            desc: 'Um jogo com economia variável e com inúmeras possibilidades de expansão.',
             situação: 'completo',
         },
         {
@@ -23,19 +34,19 @@ const Projetos = () => {
             tecnologias: ['React', 'CSS', 'JavaScript'],
             github: 'https://github.com/PauloMiguelVIdal/personalGustavo',
             deploy: 'https://personal-gustavo-three.vercel.app/',
-            desc: 'Um site para um personal trainer, com informações geração de ofertas e direcionamento para WhatsApp.',
+            desc: 'Um projeto real de site para um personal trainer, com informações geração de ofertas e direcionamento para WhatsApp.',
             situação: 'completo',
         },
-        // {
-        //     id: 3,
-        //     nome: 'Obank',
-        //     imagem: obank,
-        //     tecnologias: ['React', 'TailwindCSS', 'JavaScript'],
-        //     github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
-        //     deploy: 'https://link-do-deploy-obank.com',
-        //     desc: 'Um site de banco fictício, com funcionalidades de conta e transações.',
-        //     situação: 'Em desenvolvimento',
-        // },
+        {
+            id: 3,
+            nome: 'Vane Store',
+            imagem: vaneStore,
+            tecnologias: ['React', 'TailwindCSS', 'JavaScript',' Material UI',' Axios',' React Router','API'],
+            github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
+            deploy: 'https://teste-tailwind-form-9t2a.vercel.app/',
+            desc: 'Um site de loja fictiícia, no qual consumi a API Fake Store para popular os produtos.',
+            situação: 'completo',
+        },
         {
             id: 4,
             nome: 'Clima Open',
@@ -47,15 +58,26 @@ const Projetos = () => {
             situação: 'completo',
         },
         {
-            id: 5,
-            nome: 'Vane Store',
+            id: 7,
+            nome: 'Rocheli',
             imagem: vaneStore,
-            tecnologias: ['React', 'TailwindCSS', 'JavaScript',' Material UI',' Axios',' React Router','API'],
-            github: 'https://github.com/PauloMiguelVIdal/lojaFake',
-            deploy: 'https://loja-fake.vercel.app/',
-            desc: 'Um site de loja fictício, com funcionalidades de conta e produtos.',
+            tecnologias: ['React','Bcrypt','NodeJS','Express','MongoDB','TailwindCSS', 'JavaScript',' Material UI',' Axios',' React Router','API'],
+            github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
+            deploy: 'https://teste-tailwind-form-9t2a.vercel.app/',
+            desc: 'Um site de loja de roupas no qual é possivel se cadastrar, fazer login e comprar produtos e adicionar produtos.',
             situação: 'completo',
         },
+        {
+            id: 5,
+            nome: 'Obank',
+            imagem: obank,
+            tecnologias: ['React', 'TailwindCSS', 'JavaScript',' Material UI',' Axios',' React Router','API'],
+            github: 'https://github.com/PauloMiguelVIdal/teste-tailwind-form',
+            deploy: 'https://teste-tailwind-form-9t2a.vercel.app/',
+            desc: 'Um site institucional fictício de um banco.',
+            situação: 'completo',
+        },
+
     ];
 
     return (
